@@ -64,7 +64,7 @@ a {
 }
 
 .container {
-    outline: 2px solid purple; 
+    /* outline: 2px solid purple;  */
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
@@ -74,13 +74,18 @@ a {
   }
 
 /*header&footer*/
+
 /* .header .container{
     display: inline-flex;
 } */
  .for-flex{
-   
+    background: #FFFFFF;
+    width: 1200px;
+    height: 80px;
     display: inline-flex;
+    text-align: center;
     min-height: 80px;
+    border-bottom:1px solid #ECECEC;
 } 
 
 .logo-web {
@@ -188,36 +193,58 @@ a {
 /*index-main-content*/
 
 /*section 1*/
-.banner {
-  background-color: var(--bg-dark);
-}
 
-.banner-title {
+.hero{
+    background-color: var(--bg-dark);
+    max-width: 1600px;
+    width: 100%;
+    min-height: 600px;
+    margin-left:auto;
+    margin-right:auto; 
+    padding: 200px 452px; 
+    text-align: center;
+
+}
+  
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--bg-white);
+  margin-bottom: 30px;
+  
 }
 
-.banner-order-button {
+.hero-order-button {
   cursor: pointer;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  /* display: inline-block; 
+  align-items: center; */
+  /* text-align: center; */
   letter-spacing: 0.06em;
   color: var(--bg-white);
+  min-width: 152px;
+  padding: 10px 32px;
+
+
+
+
+
+
+
 }
+
+ 
+
+  
 
 /*section 2*/
 .advances-title {

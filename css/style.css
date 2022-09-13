@@ -12,12 +12,14 @@ h3,
 h4,
 h5,
 h6,
-p {
+p 
+{
   margin: 0;
 }
 ul[class],
 ol[class] {
   padding: 0;
+  /* margin: 0; */
 }
 img {
   display: block;
@@ -64,13 +66,12 @@ a {
 }
 
 .container {
-    /* outline: 2px solid purple;  */
+    outline: 2px solid purple;  
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    
   }
 
 /*header&footer*/
@@ -182,6 +183,12 @@ a {
 
 .footer {
   background-color: var(--bg-dark);
+  outline: 2px solid purple;  
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .address {
@@ -196,7 +203,7 @@ a {
 
 .hero{
     background-color: var(--bg-dark);
-    max-width: 1600px;
+    max-width: 1600px; 
     width: 100%;
     min-height: 600px;
     margin-left:auto;
@@ -233,13 +240,6 @@ a {
   color: var(--bg-white);
   min-width: 152px;
   padding: 10px 32px;
-
-
-
-
-
-
-
 }
 
  
@@ -247,34 +247,87 @@ a {
   
 
 /*section 2*/
+.advances{
+    background-color: thistle;  
+    width: 100%;
+    min-height: 286px;
+    margin:0 auto;
+
+}
+
+.advances-article{
+    background-color: red;
+    width: 270px;
+    padding:auto 0;
+
+}
+.advances-article:not(:last-child) {
+     margin-right: 0;
+     padding-right:0;
+     margin-left:30px; 
+}
+   
+   
+.advances-item{
+    outline: 2px solid rgb(0, 128, 126);
+    display: inline-flex;
+    margin: 94px auto;
+}
+
 .advances-title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-text);
+ 
 }
 
 .advances-text {
   line-height: 1.71;
 }
 
+
+
+
+
+
 /*section 3*/
-.section-title {
+.section-projects{
+    background-color: greenyellow;
+}
+.projects-title {
   font-size: 36px;
   line-height: 1.16;
-  /*text-align: center;*/
+  text-align: center;
   color: var(--secondary-text);
 }
+
+.projects-example{
+    display: inline-flex;
+}
+
+.project{
+    margin-left: 30px;
+}
+
 
 /*section 4*/
 .section-about-team {
   background-color: var(--bg-darkness);
+}
+
+.team{
+    display: inline-flex;
 }
 .team-case {
   background: var(--bg-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  height:368px ;
+  margin-left: 30px;
+  justify-content: center;
 }
 
 .team-title {
@@ -293,6 +346,12 @@ a {
 
 /*portfolio-main-content*/
 /*section 1*/
+.menu{
+    display: inline-flex;
+    
+
+}
+
 .menu-button {
   cursor: pointer;
   background: var(--bg-darkness);
@@ -321,6 +380,14 @@ a {
 }
 
 /*section 2*/
+.projects-block{
+    background-color: aquamarine;
+    display: inline-flex;
+}
+
+.card{
+    margin-left: 30px;
+}
 .project-title {
   font-size: 18px;
   line-height: 2;

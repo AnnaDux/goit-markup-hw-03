@@ -76,7 +76,7 @@ a {
   }
 
 
-                         /*HEADER*/  
+                                      /*HEADER*/  
 
 .header{
   min-width: 1600;
@@ -175,48 +175,21 @@ a {
   color: var(--accent-color);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*index-main-content*/
-
-/*section 1*/
+                                      /* HERO */
+                                      /*index-main-content*/
+                                      /* SECTION 1 */
 
 .hero{
     background-color: var(--bg-dark);
     min-width: 1600px; 
     width: 100%;
     min-height: 600px;
-    margin-left:auto;
-    margin-right:auto; 
-    padding: 200px 452px; 
+    padding-top: 200px;
+    padding-bottom:200px; 
     text-align: center;
 
 }
+
   
 .hero-title {
   font-weight: 900;
@@ -226,7 +199,9 @@ a {
   text-transform: uppercase;
   color: var(--bg-white);
   margin-bottom: 30px;
-  
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-order-button {
@@ -374,12 +349,12 @@ margin-bottom: 50px;
 
 
 
+                                        /* PROJECTS */
+                                        /*portfolio-main-content*/
+                                        /*section 1*/
 
 
 
-
-/*portfolio-main-content*/
-/*section 1*/
 .portfolio-section{
   background-color: thistle;
   padding-top: 94px;
@@ -455,7 +430,7 @@ margin-bottom: 50px;
 
 
 
-/* footer */
+                                      /* FOOTER */
 
 .footer {
   background-color: var(--bg-dark);  

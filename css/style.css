@@ -338,6 +338,11 @@ a {
 /*portfolio-main-content*/
 /*section 1*/
 
+.portfolio-section{
+  background-color: var(--bg-lightness);
+
+}
+
 .menu {
   display: flex;
   justify-content: center;
@@ -382,11 +387,12 @@ a {
 }
 
 .card {
+  background-color: var(--bg-white);
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
   background: var(--bg-white);
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
 
 .card:nth-child(3n) {
